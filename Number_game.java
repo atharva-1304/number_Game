@@ -8,7 +8,7 @@ public class Number_game {
     int MyNum = (int) (Math.random() * 100);
     int UseerNumber;
     do {
-      System.out.println("enter a number:");
+      System.out.println("enter a number: (1-100)");
       UseerNumber = Sc.nextInt();
       if (MyNum == UseerNumber) {
         System.out.println("you win");
