@@ -2,7 +2,7 @@ package number_Game;
 import java.util.Scanner;
 
 public class Number_game {
-
+   //this is a simple nuber game
   public static void main(String[] args) {
     Scanner Sc = new Scanner(System.in);
     int MyNum = (int) (Math.random() * 100);
